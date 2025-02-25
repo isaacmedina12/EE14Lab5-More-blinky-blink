@@ -6,8 +6,8 @@
 
 // Include files:
 #include "ee14lib.h" // Access all functions
-#include "stm32l432xx.h" 
-#include <stdint.h> // Easier syntax, if needed
+#include "stm32l432xx.h" // In case a reference is needed the STM32 header file
+#include <stdint.h> // Easier syntax, if needed.
 
 // Define RGB LED pins:
 #define RED_PIN D1 // PA_9 | TIM1_2 | Red pin
@@ -56,7 +56,7 @@ void breathing_effect(){
 
 // ---------L10: Use all 3 RGB LED channels to make a full rainbow RGB effect-------
 
-// rainbow_fade
+// rainbow_fade()
 // Input: No input.
 // Description: Cycles through a rainbow sequence to show different RGB colors.
 //              Essentially, implement L9 for a full spectrum of colors.
