@@ -127,7 +127,7 @@ int main(){
     while (i < 2){
         for (volatile int j = 0; j < 70000; j++); // Delay for added effect
 
-        //Call the breathing effect functon to implment L9
+        //Call the breathing effect function to implement L9
         breathing_effect(); 
         
         // Increment i
@@ -135,7 +135,7 @@ int main(){
     } 
 
     // Step 3: Implement L10:
-    while (1){ // Infinite while loop to Run the rainbow loop indefinetly
+    while (1){ // Infinite while loop to Run the rainbow loop indefinitly
 
         // Call the rainbow sequence function to implement L10
         rainbow_sequence();
