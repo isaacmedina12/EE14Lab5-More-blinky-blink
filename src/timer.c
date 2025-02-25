@@ -1,5 +1,5 @@
 // timer.c
-// Editied by: Isaac Medina for EE14 Lab 5
+// Edited by: Isaac Medina for EE14 Lab 5
 // Description: Contains the governing timer functions for the PSC, ARR, and CRR
 // Date: 2/19/2025      
 
@@ -38,7 +38,7 @@ EE14Lib_Err timer_config_pwm(TIM_TypeDef* const timer, const unsigned int freq_h
     // Define the base clock frequency as 4MHz
     unsigned int base_clk_4MHz = 4000000;
 
-    // Define the minmimum prescalar value based on the input frequency: (4MHz / (freq_hz) * (65536))
+    // Define the minimum prescalar value based on the input frequency: (4MHz / (freq_hz) * (65536))
     unsigned int prescalar = ((base_clk_4MHz) / (freq_hz * (65536)));
     timer->PSC = prescalar;
     

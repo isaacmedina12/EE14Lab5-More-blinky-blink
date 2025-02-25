@@ -1,6 +1,6 @@
 // main.c
 // Author: Isaac Medina
-// Description: Uses the functions in timer.c to impliment a "breathing" fade pattern (L9);
+// Description: Uses the functions in timer.c to implement a "breathing" fade pattern (L9);
 //              Impliments the full rainbow effect for L10. 
 // Date: 2/19/2025
 
